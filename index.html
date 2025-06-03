@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Saya</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_HwK_o4ZDB81ADYcmmG-W9DgBgYhM7uF8Xw&s">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 350px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: -60px;
+      border: 5px solid #fff;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+
+    .card h4 {
+      margin: 0;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .card p {
+      padding: 15px 20px;
+      color: #555;
+    }
+
+    .card .contacts {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0 20px;
+    }
+
+    .contacts a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .contacts a:hover {
+      color: #0077b5;
+    }
+
+    .fa-instagram { color: #E4405F; }
+    .fa-whatsapp { color: #0aa137; }
+    .fa-tiktok  { color: #000000; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="IMG-20230527-WA0029.jpg" alt="Cover">
+    <img class="profile-pic" src="IMG-20230527-WA0006.jpg" alt="Foto Profil Anda">
+    <h2>Babolboy</h2>
+    <h4>Cah ganteng</h4>
+
+     <div class="info">
+        <p><strong>Nama:</strong> bardan_billy</p>
+        <p><strong>TTL:</strong> Malang,20-10-2007</p>
+        <p><strong>Alamat:</strong> Jl. Merdeka No. 123, Bandung</p>
+    </div>
+
+     <div class="message">
+      "Kesan saya selama belajar sangat menyenangkan dan menantang. Pesan saya: jangan takut mencoba hal baru!"
+    </div>
+
+
+    <div class="contacts">
+      <a href="https://www.instagram.com/bardan_billy/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/6281931528355>" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.tiktok.com/@utusanrahmat" target="_blank" title="Tiktok"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+
+</body>
+</html>
